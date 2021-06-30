@@ -62,7 +62,7 @@ export function Home() {
 						<div className="card" style={{ width: "18rem" }}>
 							<img
 								className="card-img-top"
-								src="https://source.unsplash.com/collection/190727/286x180"
+								src="https://source.unsplash.com/collection/190727/200x150"
 								alt="Card image cap"
 							/>
 							<div className="card-body">
@@ -78,7 +78,7 @@ export function Home() {
 						<div className="card" style={{ width: "18rem" }}>
 							<img
 								className="card-img-top"
-								src="https://source.unsplash.com/collection/190727/286x180"
+								src="https://source.unsplash.com/collection/190727/200x150"
 								alt="Card image cap"
 							/>
 							<div className="card-body">
@@ -94,7 +94,7 @@ export function Home() {
 						<div className="card" style={{ width: "18rem" }}>
 							<img
 								className="card-img-top"
-								src="https://source.unsplash.com/collection/190727/286x180"
+								src="https://source.unsplash.com/collection/190727/200x150"
 								alt="Card image cap"
 							/>
 							<div className="card-body">
@@ -110,7 +110,7 @@ export function Home() {
 						<div className="card" style={{ width: "18rem" }}>
 							<img
 								className="card-img-top"
-								src="https://source.unsplash.com/collection/190727/286x180"
+								src="https://source.unsplash.com/collection/190727/200x150"
 								alt="Card image cap"
 							/>
 							<div className="card-body">

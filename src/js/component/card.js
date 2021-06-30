@@ -1,4 +1,37 @@
 import React from "react";
+
+const Card = () => {
+	return (
+		<div className="row m-2 ">
+			{dogs.map(dog => {
+				return (
+					<div
+						className="card col-md"
+						style={{ width: "16rem", zIndex: "-1" }}
+						key={dog.breed}>
+						<img
+							className="card-img-top"
+							src={dog.image}
+							alt="Dog image"
+						/>
+						<div className="card-body">
+							<h5 className="card-title">{dog.breed}</h5>
+							<p className="card-text">{dog.description}</p>
+							<a
+								href={dog.url}
+								className="btn btn-primary"
+								target="_blank"
+								rel="noreferrer">
+								More Information
+							</a>
+						</div>
+					</div>
+				);
+			})}
+		</div>
+	);
+};
+
 let dogs = [
 	{
 		breed: "Labrador Retriever",
@@ -33,21 +66,5 @@ let dogs = [
 		url: "https://www.akc.org/dog-breeds/australian-shepherd/"
 	}
 ];
-const Card = () => {
-	dogs.map(dog => {
-		return (
-			<div className="card" style={{ width: "16rem" }} key={dog.breed}>
-				<img className="card-img-top" src={dog.image} alt="Dog image" />
-				<div className="card-body">
-					<h5 className="card-title">{dog.breed}</h5>
-					<p className="card-text">{dog.description}</p>
-					<a href={dog.url} className="btn btn-primary">
-						More Information
-					</a>
-				</div>
-			</div>
-		);
-	});
-};
 
 export default Card;

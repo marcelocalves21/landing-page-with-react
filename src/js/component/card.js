@@ -18,8 +18,8 @@ const Card = () => {
 							<h5 className="card-title">{dog.breed}</h5>
 							<p className="card-text">{dog.description}</p>
 						</div>
-						<hr />
-						<div className="m-2">
+						<hr className="m-0" />
+						<div className="text-center m-2">
 							<a
 								href={dog.url}
 								className="btn btn-primary"

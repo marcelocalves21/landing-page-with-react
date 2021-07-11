@@ -11,7 +11,7 @@ export function Home() {
 			<div style={{ width: "100%" }}>
 				<Navbar />
 			</div>
-			<div className="container-fluid">
+			<div className="container-fluid mt-5">
 				<Jumbotron />
 				<Card />
 			</div>

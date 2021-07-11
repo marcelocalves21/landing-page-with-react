@@ -6,8 +6,8 @@ const Card = () => {
 			{dogs.map(dog => {
 				return (
 					<div
-						className="card col-md"
-						style={{ width: "16rem", zIndex: "-1" }}
+						className="card col-md m-1 p-0"
+						style={{ width: "10rem", zIndex: "-1" }}
 						key={dog.breed}>
 						<img
 							className="card-img-top"
@@ -17,6 +17,8 @@ const Card = () => {
 						<div className="card-body">
 							<h5 className="card-title">{dog.breed}</h5>
 							<p className="card-text">{dog.description}</p>
+						</div>
+						<div className="m-2">
 							<a
 								href={dog.url}
 								className="btn btn-primary"
